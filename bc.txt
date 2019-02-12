@@ -1,0 +1,6 @@
+There are two ways to generate pascal's triangle.
+(a) Using Dynamic Programming.
+(b) Using recursive method.
+The efficiency of above methods depends on problems.
+
+There is a method to generate nth row of pascals's triangle.
