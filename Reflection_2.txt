@@ -1,10 +1,7 @@
-
 Look-up Table:
-Look-up Table is an array (1D or 2D) that replaces runtime computation with a simpler array indexing operation.
-It is required when there is necessity of performing frequent computation on some array elements.
-In look-up table we precompute the required computation and stored into 2D or 1D matrix ( based on requirement) and we access the result whenever it's required.
+•	Look-up Table is an array (1D or 2D) that replaces runtime computation with a simpler array indexing operation.
+•	It is required when there is necessity of performing frequent computation on some array elements.
+•	In look-up table we precompute the required computation and stored into 2D or 1D matrix ( based on requirement) and we access the         result whenever it's required.
 •	Time complexity to generate look-up table is  O(n^2).
 •	Space Complexity is O(n^2).
 •	Time complexity to access the computed result is constant i.e O(1).
-    
-
