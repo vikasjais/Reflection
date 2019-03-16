@@ -1,7 +1,18 @@
+Common Query Optimization Techniques.
+
 Look-up Table:
-•	Look-up Table is an array (1D or 2D) that replaces runtime computation with a simpler array indexing operation.
+•	Look-up Table is an array (1D or 2D) that replaces runtime computation with a simpler array indexing
+•	operation.
 •	It is required when there is necessity of performing frequent computation on some array elements.
-•	In look-up table we precompute the required computation and stored into 2D or 1D matrix ( based on requirement) and we access the         result whenever it's required.
+•	In look-up table we precompute the required computation and stored into 2D or 1D matrix ( based on requirement) and we access the result whenever it's required.
 •	Time complexity to generate look-up table is  O(n^2).
 •	Space Complexity is O(n^2).
 •	Time complexity to access the computed result is constant i.e O(1).
+    
+Square Root Decomposition Technique:
+•	Sqrt Decomposition is a method (or a data structure) that allows you to perform some common operations (finding sum of the elements of the sub-array, finding the minimal/maximal element, etc.) in O(sqrt(n)) operations, which is much faster than O(n) for the trivial algorithm.
+•	Time complexity to make O(n).
+•	Space Complexity is O(sqrt(n)).
+•	Time Complexity to query is O(sqrt(n)).
+
+	
